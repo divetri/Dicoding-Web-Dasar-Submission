@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Dive Fahsyun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/style.css">
+	</head>
+	<body>
+		<header>
+      <div class="jumbotron">
+        <div style="float: left;">
+        <img src="assets/image/hanger.png" style="width:150px;height:150px; margin-right: 50px">
+        </div>
+        <h1>DIVE FAHSYUN</h1>
+        <p>Simple Fashion</p>
+      </div>
+   		<nav>
+   			<ul>
+          <li><a href="#pesan">Cara Memesan</a></li>
+         	<li><a href="#katalog">Katalog</a></li>
+         	<li><a href="#harga">Cek Harga</a></li>
+      		</ul>
+   		</nav>
+		</header>
+		<main>
+      <div id="content">
+        <article id="pesan" class="card">
+          <h2>Cara Pemesanan</h2>
+          <div class="flex-container">
+            <div>
+              <h3>Pilih</h3>
+              <img src="assets/image/smartphone.png" class="featured-icon" alt="farm house">
+              <p>Pilih bajumu di katalog.</p>
+            </div>
+            <div>
+              <h3>Cek Harga</h3>
+              <img src="assets/image/invoice.png" class="featured-icon" alt="bosscha">
+              <p>Hitung total harga.</p>
+            </div>
+            <div>
+              <h3>Pesan</h3>
+              <img src="assets/image/order.png" class="featured-icon" alt="bosscha">
+              <p>Pesan melalui kontak.</p>
+            </div>
+            <div>
+              <h3>Terima</h3>
+              <img src="assets/image/package.png" class="featured-icon" alt="bosscha">
+              <p>Baju kamu siap dipakai.</p>
+            </div>
+          </div>
+        </article>
+        <article id="katalog" class="card">
+          <h2>Katalog</h2>
+          <center>
+            <section>
+              <h3>France</h3>
+              <h1>Rp 180000</h1>
+              <img src="assets/image/france_madea.png" class="featured-image" alt="farm house">
+              <p>Gamis yang cantik dan elegan untuk acara spesial. <br>Tersedia warna: dusty, grey, sky, navy, creme, black.</p>
+            </section>
+            <section>
+              <h3>Cariss</h3>
+              <h1>Rp 135000</h1>
+              <img src="assets/image/cariss_madea.jpg" class="featured-image" alt="farm house">
+              <p>Blouse yang chic, cocok untuk kerja maupun kuliah.<br>Tersedia warna: brick-sky, black-grey, dusty-creme.</p>
+            </section>
+            <section>
+              <h3>Pocky</h3>
+              <h1>Rp 120000</h1>
+              <img src="assets/image/pocky_madea.png" class="featured-image" alt="farm house">
+              <p>Blouse yang simpel dan casual seperti anak muda.<br>Tersedia warna: dusty, aqua, grey, benhur, mocha.</p>
+            </section>
+          </center>
+        </article>
+        <article id="harga" class="card">
+          <h2>Harga</h2>
+          Tipe <select id="type">
+            <option value="180000">France</option>
+            <option value="135000">Cariss</option>
+            <option value="120000">Pocky</option>
+          </select>
+          Qty
+          <input type="number" id="jumlah">
+          <button id="hitung">Hitung</button>
+          <h1 id="total">Rp 0</h1>
+        </article>
+      </div>
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Kontak Kami</h2>
+            <img src="assets/image/dive.jpg" width="100%">
+          </header>
+          <section>
+            <table>
+              <tr>
+                 <th>Nama</th>
+                 <td>Divetri Ayu Rahmawati</td>
+              </tr>
+              <tr>
+                 <th>Tanggal Lahir</th>
+                 <td>27 November 1998</td>
+              </tr>
+              <tr>
+                 <th>Domisili</th>
+                 <td>Jepara</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+		<footer>
+      <p>Divedev &#169; 2020</p>
+		</footer>
+    <script type="text/javascript" src="cekharga.js"></script>
+	</body>
+</html>
